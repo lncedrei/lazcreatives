@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LAZ CREATIVES</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        background-color: #080dcc;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+      }
+      
+    </style>
+</head>
+<body>
+
+  <div class="introScreen" id="introContainer">
+    <h1 class="brandTitle">LAZ CREATIVES</h1>
+  </div>
+
+  <script>
+    const intro = document.getElementById('introContainer');
+  
+    const holdDuration = 3000;
+
+    function triggerSlideDown() {
+      intro.classList.add('slide-down');
+
+      intro.addEventListener('transitionend', () => {
+        window.location.href = 'main.html';
+      }, { once: true });
+    }
+
+    const timer = setTimeout(triggerSlideDown, holdDuration);
+
+    window.addEventListener('click', () => {
+      clearTimeout(timer);
+      triggerSlideDown();
+    }, { once: true });
+  </script>
+</body>
+</html>

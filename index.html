@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./img/favicon.png">
+    <title>LAZ CREATIVES</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Share+Tech+Mono&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">    
+</head>
+<body>
+     <header>
+       <nav class="navbar p-3 fixed-top w-100">
+                 <div class="container-fluid d-flex align-items-center justify-content-between"></div>
+
+              <div class="d-flex align-items-center gap-3 me-auto">
+            <div>
+                <img id="navLogo" src="./img/LazLogo.png">
+            </div>
+            <div id="navBrand" class="navbar-brand align-text-start">
+                <h2 class="mb-0 text-light d-none d-md-block">LAZ CREATIVES</h2>
+                <p class="mb-0 text-light d-none d-md-block">@LAZCREATIVES</p>
+                
+            </div>
+        </div>
+        
+        <!-- THIS DROPDOWN MENU FOR NAVBAR IS HIDDEN IN DESKTOP MODE-->
+         
+       <div class="d-block d-lg-none dropdown me-sm-1 me-md-5">
+        <button class="btn btn-secondary dropdown-toggle py-1 px-3 fs-6 fw-bolder" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="bi bi-list"></i>
+        </button>
+        <ul id="dropList" class="dropdown-menu dropdown-menu-end">
+            <li><a class="dropdown-item p-3 fw-bolder" href="#homeSec"><i class="bi bi-house-fill"></i>  HOME</a></li>
+            <li><a class="dropdown-item p-3 fw-bolder" href="#aboutLazSec"><i class="bi bi-file-person"></i>  ABOUT</a></li>
+            <li><a class="dropdown-item p-3 fw-bolder" href="#socialsSec"><i class="bi bi-phone"></i>  SOCIALS</a></li>
+            <li><a class="dropdown-item p-3 fw-bolder" href="portfolio.html"><i class="bi bi-folder2"></i>  PORTFOLIO</a></li>
+        </ul>
+    </div>
+            <div id="desktopNav" class="d-none d-lg-flex gap-3 "> <!-- THIS IS FOR DESKTOP ONLY-->
+                <a class="btn btn-secondary mx-1 py-2 px-3 fs-6 fw-bolder" href="#homeSec">HOME</a>
+                <a class="btn btn-secondary mx-1 py-2 px-3 fs-6 fw-bolder" href="#aboutLazSec">ABOUT</a>
+                <a class="btn btn-secondary mx-1 py-2 px-3 fs-6 fw-bolder" href="#socialsSec">SOCIALS</a>
+                <a id="portfolioNav" class="glowNav btn btn-secondary mx-1 me-4 py-2 px-3 fs-6 fw-bolder" href="portfolio.html"><i class="bi bi-folder2"></i> PORTFOLIO</a>
+    </div>
+        </div>
+        </nav>
+    </header>
+
+
+    <main>
+        <div class="transitionCurtain" id="curtain">
+        <div class="brandLockup">
+            <img src="./img/LazLogo.png" alt="Logo" class="brandLogo" />
+            <div class="brandText">
+            <h1 class="brandTitle">LAZ CREATIVES</h1>
+            <p class="brandSubtitle">@LAZCREATIVES</p>
+            </div>
+        </div>
+        </div>
+    <section id="homeSec">
+        <div id="introText" class="reveal scroll-img">
+
+        <div class="text-white fs-4"><i class="bi bi-instagram fs-4 me-2"></i>LAZCREATIVES</div>
+        <img src="./img/IntroText.png">
+
+        <div class="intro-marquee-container ">
+    <div class="carouselNames ">
+        <div class="nameCar1">SOFTWARE DEVELOPMENT</div>
+        <div class="nameCar2">    UI/UX DESIGN    </div>
+        <div class="nameCar3">   GRAPHIC DESIGN   </div>
+        <div class="nameCar1">SOFTWARE DEVELOPMENT</div>
+        <div class="nameCar2">    UI/UX DESIGN    </div>
+        <div class="nameCar3">   GRAPHIC DESIGN   </div>
+        <div class="nameCar1">SOFTWARE DEVELOPMENT</div>
+        <div class="nameCar2">    UI/UX DESIGN    </div>
+        <div class="nameCar3">   GRAPHIC DESIGN   </div>
+        <div class="nameCar1">SOFTWARE DEVELOPMENT</div>
+        <div class="nameCar2">    UI/UX DESIGN    </div>
+        <div class="nameCar3">   GRAPHIC DESIGN   </div>
+        <div class="nameCar3">   GRAPHIC DESIGN   </div>
+        <div class="nameCar1">SOFTWARE DEVELOPMENT</div>
+        <div class="nameCar2">    UI/UX DESIGN    </div>
+        <div class="nameCar3">   GRAPHIC DESIGN   </div>
+       
+            </div>
+        </div>
+
+    <button id="introPf" class="glowNav btn btn-light">PORTFOLIO <i class="bi bi-arrow-up-right"></i></button>
+    </div>
+    <div id="introPhone" class="scroll-img2">
+        <a href="https://www.instagram.com/lazcreatives/" target="_blank" rel="noopener noreferrer">
+        <img class="jumping-img" src="./img/phonePic.png">
+        </a>
+    </div>
+    </section>
+    <div id="colorFadeEffect2"></div>
+    <div id="blackFadeEffect1"></div>
+
+    <section id="aboutSec">
+        
+        <div id="credContainer" class="reveal">
+        <div id="aboutCred1">
+            <i class="bi bi-people-fill"></i>
+            <h1>70+</h1>
+            <p>SATISFIED CLIENTS</p>
+        </div>
+        <div id="aboutCred2">
+            <i class="bi bi-graph-up-arrow"></i>
+            <h1>2,000+</h1>
+            <p>SOCIAL MEDIA FOLLOWERS</p>
+        </div>
+        <div id="aboutCred3">
+            <i class="bi bi-folder-fill"></i>
+            <h1>300+</h1>
+            <p>PROJECTS MADE</p>
+        </div>
+        </div>
+
+        <div class="marquee-container reveal">
+        <div id="carouselColors">
+            <div class="colorCar1"><img src="./img/post1.jpeg"></div>
+            <div class="colorCar1"><img src="./img/post2.jpeg"></div>
+            <div class="colorCar1"><img src="./img/post3.jpeg"></div>
+            <div class="colorCar1"><img src="./img/post4.jpeg"></div>
+            <div class="colorCar1"><img src="./img/post5.jpeg"></div>
+            <div class="colorCar1"><img src="./img/post6.jpeg"></div>
+            <div class="colorCar1"><img src="./img/post7.jpeg"></div>
+            <div class="colorCar1"><img src="./img/post8.jpeg"></div>
+            <div class="colorCar1"><img src="./img/post9.jpeg"></div>
+            <div class="colorCar1"><img src="./img/post10.jpeg"></div>
+            <div class="colorCar1"><img src="./img/post12.jpeg"></div>
+            <div class="colorCar1"><img src="./img/post1.jpeg"></div>
+            <div class="colorCar1"><img src="./img/post2.jpeg"></div>
+            <div class="colorCar1"><img src="./img/post3.jpeg"></div>
+            <div class="colorCar1"><img src="./img/post4.jpeg"></div>
+            <div class="colorCar1"><img src="./img/post5.jpeg"></div>
+            <div class="colorCar1"><img src="./img/post6.jpeg"></div>
+            <div class="colorCar1"><img src="./img/post7.jpeg"></div>
+            <div class="colorCar1"><img src="./img/post8.jpeg"></div>
+            <div class="colorCar1"><img src="./img/post9.jpeg"></div>
+            <div class="colorCar1"><img src="./img/post10.jpeg"></div>
+            <div class="colorCar1"><img src="./img/post12.jpeg"></div>
+            </div>
+        </div>
+    </section>
+    <section id="aboutFounderSec">
+
+        <div id="fadePicContainer">
+            <img src="./img/Founder1.png" alt="Founder 1" class="founder-img img-1">
+            <img src="./img/Founder2.png" alt="Founder 2" class="founder-img img-2">
+            <div id="founderSoc" class="glowNav reveal btn">@LNCEDREI_</div>
+        </div>
+
+        <div id="founderDescCon" class="reveal">
+            <div id="fDescCon2">
+            <img src="./img/LanceText.png">
+            
+            <div id="tDescCon2">
+                <div class="typing-container">
+                <span class="typed-text"></span>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <div id="circleBorderBack"></div>
+        <div id="circleBorder1"></div>
+    </section>
+
+        <div id="circleBorder2"></div>
+        <div id="circleBorder3"></div>
+        <div id="lazBorderShow"><img src="./img/LazLogo.png" ></div>
+
+    <section id="aboutLazSec">
+
+         <div id="lazNameCar" class="marquee-container">
+            <div id="lazNameIn" class="carouselNames">
+                <div class="nameCar1">LAZ CREATIVES</div>
+                <div class="nameCar2"><img src="./img/LazLogo.png"  ></div>
+                <div class="nameCar1">LAZ CREATIVES</div>
+                <div class="nameCar2"><img src="./img/LazLogo.png"  ></div>
+                <div class="nameCar1">LAZ CREATIVES</div>
+                <div class="nameCar2"><img src="./img/LazLogo.png"  ></div>
+                <div class="nameCar1">LAZ CREATIVES</div>
+                <div class="nameCar2"><img src="./img/LazLogo.png"  ></div>
+                <div class="nameCar1">LAZ CREATIVES</div>
+                <div class="nameCar2"><img src="./img/LazLogo.png"  ></div>
+                <div class="nameCar1">LAZ CREATIVES</div>
+                <div class="nameCar2"><img src="./img/LazLogo.png"  ></div>
+                <div class="nameCar1">LAZ CREATIVES</div>
+                <div class="nameCar2"><img src="./img/LazLogo.png"  ></div>
+                <div class="nameCar1">LAZ CREATIVES</div>
+                <div class="nameCar2"><img src="./img/LazLogo.png"  ></div>
+                <div class="nameCar1">LAZ CREATIVES</div>
+                <div class="nameCar2"><img src="./img/LazLogo.png"  ></div>
+                <div class="nameCar1">LAZ CREATIVES</div>
+                <div class="nameCar2"><img src="./img/LazLogo.png"  ></div>
+                <div class="nameCar1">LAZ CREATIVES</div>
+                <div class="nameCar2"><img src="./img/LazLogo.png"  ></div>
+                <div class="nameCar1">LAZ CREATIVES</div>
+                <div class="nameCar2"><img src="./img/LazLogo.png"  ></div>
+        </div>
+        </div>
+            <div class="collageCon">
+                <div id="collageLaz1"><img src="./img/gfxGridPic1.jpeg"></div>
+                <div id="collageLaz2"><img src="./img/progGridPic2.jpeg"></div>
+                <div id="collageLaz3"><img src="./img/progGridPic1.jpeg"></div>
+                <div id="collageLaz4"><img src="./img/gfxGridPic2.jpeg"></div>
+            </div>
+
+            <div id="aboutLazCards" class="reveal">
+                <div class="card">
+            <div class="card-body">
+                <h1>LAZ CREATIVES</h1>
+                <p>Laz Creatives is a freelance service founded by Lance. 
+                   It specializes in software development, UI/UX design, and graphic design.
+                    Each project is carefully examined and crafted with a focus on purpose, functionality, and design aesthetics. 
+                    High-quality outputs are provided at reasonable prices, and additional options are also offered 
+                    that align with clients' budgets.</p>
+
+                <p>Previously, It is also known as "War Graphics." This online service gained recognition within 
+                    the gaming community, boasting over 70 satisfied clients and more than 300 completed projects nationwide. 
+                    Initially limited to graphic design, War Graphics has now rebranded as Laz Creatives, 
+                    introducing two new services with enhanced quality.</p>
+
+                <p>For more details, you may message @lazcreatives or @lncedrei_ on Instagram.</p>
+            </div>
+            </div>
+                <div class="card">
+            <div class="card-body">
+                <h1>COMMISSION RATES</h1>
+
+                <p>For Web Development and UI/UX Design rates, 
+                    message the developer directly on instagram [ @lazcreatives ] or email [ lazcreatives@gmail.com ].</p>
+
+                <h3>Graphic Design</h3>
+
+                <p>Logo: P 200 - P 600</p>
+                <p>Banners: P200 - P600</p>
+                <p>Infographics/Brochure: P200 - P600</p>
+                <p>Jersey/Shirt Design: P500 - P800</p>
+                <p>Templates: P200 - P600</p>
+                <p>Posters: P300 - P800</p>
+
+               <p>Mode of Payment: Gcash/Maya</p>
+
+            </div>
+            </div>
+                <div class="card">
+            <div id="messageAvail" class="card-body">
+                <h1>MESSAGING AVAILABILITY</h1>
+                <h3>Mon-Sun: 10am - 10pm (UTC +8)</h3>
+
+                <h1>Working Hours</h1>
+
+                <h3>Weekdays: 6pm-10pm (UTC +8)</h3>
+                <h3>Weekends: 12nn-10pm (UTC +8)</h3>
+
+                <p>Laz Creatives is open for commissions.
+                Message @lazcreatives on instagram or email lazcreatives@gmail.com if you're interested.</p>
+                <div id="cardClock">
+                    <div id="clockIcon">
+                        <i class="bi bi-globe"></i>
+                    </div>
+                    <div>
+                    <div id="time" class="time-display">00:00:00</div>
+                    <div id="date" class="date-display">Date</div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+            <div id="aboutLazHist">
+                <h1>CREATIVE & TECH HISTORY</h1>
+                <h4>OF LAZ CREATIVES</h4>
+                <p>by @lncedrei_</p>
+
+                 <div id="historyList">
+                    <div id="historyL1" class="reveal">
+                        <div id="iconPicH1" class="CircleIconPic"><i class="bi bi-award-fill"></i></div>
+                        <div id="hisDesc1" class="HistoryDesc reveal">
+                            <h1>2018-2019</h1>
+                            <p>The founder received a certificate for excellence in Information and Communications Technology (ICT), 
+                                which ignited their passion for learning technology and programming.</p>
+                        </div>
+                    </div>
+                    <div id="historyL2" class="reveal">
+                        <div id="iconPicH2" class="CircleIconPic"><i class="bi bi-palette-fill"></i></div>
+                        <div id="hisDesc2" class="HistoryDesc reveal">
+                            <h1>2019-2023</h1>
+                            <p>The founder is a former member of an arts club organization and a multimedia stream, a special learning track in high school.
+                                 Being a member expanded his knowledge, particularly in art, design, photography, videography, and programming.</p>
+
+                        </div>
+                    </div>
+                    <div id="historyL3" class="reveal">
+                        <div id="iconPicH3" class="CircleIconPic"><i class="bi bi-youtube"></i></div>
+                        <div id="hisDesc3" class="HistoryDesc reveal">
+                            <h1>2020-2023</h1>
+                            <p>The founder is a former gaming content creator with a YouTube channel called "WARGUN,"
+                                which has over 320+ subscribers with a accumulation of 20,000+ channel views. This sparked his 
+                                interest in basic video and photo editing.</p>
+
+                        </div>
+                    </div>
+                    <div id="historyL4" class="reveal">
+                        <div id="iconPicH4" class="CircleIconPic"><i class="bi bi-suitcase-lg-fill"></i></div>
+                        <div id="hisDesc4" class="HistoryDesc reveal">
+                            <h1>2023-2025</h1>
+                            <p>War Graphics. This is the beginning of his graphic design freelance journey, which he accomodated 
+                                various esports organization and local business enterprises to create publication materials.</p>
+
+                        </div>
+                    </div>
+                    <div id="historyL5" class="reveal">
+                        <div id="iconPicH5" class="CircleIconPic"><i class="bi bi-graph-up-arrow"></i></div>
+                        <div id="hisDesc5" class="HistoryDesc reveal">
+                                <h1>2026-Present</h1>
+                                <p>War Graphics rebranded as Laz Creatives. This is the new beginning of his 
+                                    creative journey in freelance services, which now have new offers including
+                                     Software Development and UI/UX Design since he is an Information Technology (IT) major.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+         
+    </section>
+        <section id="portfolioSec">
+            <div id="lazNameCar" class="marquee-container">
+            <div id="lazNameIn" class="carouselNames">
+                <div class="nameCar1">LAZ CREATIVES</div>
+                <div class="nameCar2"><img src="./img/LazLogo.png"  ></div>
+                <div class="nameCar1">LAZ CREATIVES</div>
+                <div class="nameCar2"><img src="./img/LazLogo.png"  ></div>
+                <div class="nameCar1">LAZ CREATIVES</div>
+                <div class="nameCar2"><img src="./img/LazLogo.png"  ></div>
+                <div class="nameCar1">LAZ CREATIVES</div>
+                <div class="nameCar2"><img src="./img/LazLogo.png"  ></div>
+                <div class="nameCar1">LAZ CREATIVES</div>
+                <div class="nameCar2"><img src="./img/LazLogo.png"  ></div>
+                <div class="nameCar1">LAZ CREATIVES</div>
+                <div class="nameCar2"><img src="./img/LazLogo.png"  ></div>
+                <div class="nameCar1">LAZ CREATIVES</div>
+                <div class="nameCar2"><img src="./img/LazLogo.png"  ></div>
+                <div class="nameCar1">LAZ CREATIVES</div>
+                <div class="nameCar2"><img src="./img/LazLogo.png"  ></div>
+                <div class="nameCar1">LAZ CREATIVES</div>
+                <div class="nameCar2"><img src="./img/LazLogo.png"  ></div>
+                <div class="nameCar1">LAZ CREATIVES</div>
+                <div class="nameCar2"><img src="./img/LazLogo.png"  ></div>
+                <div class="nameCar1">LAZ CREATIVES</div>
+                <div class="nameCar2"><img src="./img/LazLogo.png"  ></div>
+                <div class="nameCar1">LAZ CREATIVES</div>
+                <div class="nameCar2"><img src="./img/LazLogo.png"  ></div>
+            </div>
+            </div>
+            <div id="cdPlayer"><img src="./img/CdPlayer.png"></div>
+        </section> 
+            
+        <section id="portfolioSec2">
+            <div id="portfolioDesc" class="reveal">
+                <div id="portfolioText" class="reveal">
+                <img id="textPfImg" src="./img/PortfolioText.png" height="400px">
+                    <form action="portfolio.html" method="get">
+                    <button id="portfolioBtn" class="btn btn-dark">PORTFOLIO <i class="bi bi-arrow-up-right"></i></button>
+                    </form>
+                </div>
+                <div>
+                <img id="samplePic" class="reveal" src="./img/Samples.png">
+                </div>
+            </div>
+            </div>
+            <div><img id="paperBack" src="./img/PaperBack.png"></div>
+            
+            
+        </section>
+            
+        <section id="socialsSec">
+        <div id="socialCon">
+            <div id="socialText">
+                <img src="./img/SocialText.png">
+                    <div id="socialLink" class="reveal">
+                        <a href="https://www.instagram.com/lazcreatives/" target="_blank" class="text-black"><i class="bi fs-1 me-2 bi-instagram"></i></a>
+                        <a href="https://github.com/lncedrei" target="_blank" class="text-black"><i class="bi fs-1 bi-github"></i></a>
+                    </div>  
+            </div>
+        </div>
+            <div id="circleFinal">
+            <div id="circleFinal2"></div>
+        </div>
+       
+        
+    </main>
+
+     </section>
+        
+        <footer id="details" class="text-light p-3 p-lg-5">
+        <div class="container d-flex flex-column flex-lg-row justify-content-between align-items-lg-center w-100">
+            <div class="d-flex flex-row flex-lg-column mb-3 mb-md-0">
+            <div id="detailsText">
+            <h1 class="fw-bolder">LAZ CREATIVES</h1>
+            <p class="fw-bolder mt-0">@LAZCREATIVES</p>
+            </div>
+            <p class="fw-bolder">
+                        <a href="https://www.instagram.com/lazcreatives/" target="_blank" class="text-white"><i class="bi fs-1 me-2 bi-instagram"></i></a>
+                        <a href="https://github.com/lncedrei" target="_blank" class="text-white"><i class="bi fs-1 bi-github"></i></a>
+                    </p>
+            </div>
+        <ul class="list-unstyled d-flex flex-row flex-lg-row mb-0  align-items-center">
+            <li class="FooterUnder ms-0 ms-lg-3 mb-3 me-md-4"><a class="text-light text-decoration-none" href="#introText">HOME</a></li>
+            <li class="FooterUnder ms-3  mb-3 me-md-4"><a class="text-light text-decoration-none" href="#aboutLazSec">ABOUT</a></li>
+            <li class="FooterUnder ms-3  mb-3 me-md-4"><a class="text-light text-decoration-none" href="#socialsSec">SOCIALS</a></li>
+            <li class="ms-3 mb-3 me-md-3"><a id="footerNav" class="glowNav text-decoration-none" href="portfolio.html"><i class="bi bi-folder2"></i> PORTFOLIO</a></li>
+        </ul>
+
+        </div>
+            <img src="./img/FooterPhoto.png">
+        </Footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
